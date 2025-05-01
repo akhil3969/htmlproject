@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side by Side Content</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 10px; /* Adds space between items */
+        }
+        .box {
+            flex: 1; /* Makes both divs take equal space */
+            padding: 20px;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/mclaren" alt="" height="100vh" width="200vh">
+        </div>
+        <div class="box">Content 2</div>
+    </div>
+</body>
+</html>
